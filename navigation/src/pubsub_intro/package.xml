@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<package format="3">        
+  <name>pubsub_intro</name>
+  <version>0.0.0</version>
+  <description>导航第二次作业</description>
+  <maintainer email="LeftRightIceOL@github.com">LeftRightIceOL</maintainer>
+  <license>Apache License 2.0</license>
+
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <!--声明工具依赖和运行编译依赖包-->
+
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+  </package>
